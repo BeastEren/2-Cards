@@ -1,3 +1,5 @@
+/* -----------------------------5-10-25------------------------------------ */
+
 @font-face {
     font-family: textFont;
     src: url(./SUSE_Mono/SUSEMono-VariableFont_wght.ttf);
@@ -188,7 +190,7 @@ p {
     transform: translateY(-4px) scale(1.3);
 }
 
-/* -------------------------------------------------------------- */
+/* ------------------------------5-10-25-------------------------------- */
 
 .card2 {
     position: relative;
@@ -372,4 +374,51 @@ p {
 .award p,
 .prise p {
     font-size: 0.8rem;
+}
+
+/* --------------------------------6-10-25------------------------------- */
+.bag {
+    position: relative;
+    overflow: hidden;
+}
+
+.txt-blur {
+    position: absolute;
+    bottom: -18%;
+    transition: all 0.5s ease 0.12s;
+}
+
+.bag:hover .txt-blur {
+    bottom: 0%;
+}
+
+.txt-blur .detals-user .name {
+    position: absolute;
+    left: -80%;
+    top: 18%;
+    transition: all 0.5s ease 0.35s;
+}
+
+.bag:hover .txt-blur .detals-user .name {
+    left: 1rem;
+}
+
+.txt-blur .detals-user p {
+    position: absolute;
+    left: -85%;
+    top: 37%;
+    transition: all 0.5s ease 0.2s;
+}
+
+.bag:hover .txt-blur .detals-user p {
+    left: 1rem;
+}
+
+.txt-blur .name i {
+    cursor: pointer;
+}
+
+.txt-blur .name i:hover {
+    cursor: pointer;
+    color: #57E25A;
 }
